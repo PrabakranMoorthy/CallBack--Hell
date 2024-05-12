@@ -1,0 +1,72 @@
+/*
+let food;
+console.log("stated")
+function getfood() {
+    console.log("async going to start")
+    setTimeout(() => {
+        food = `🍉`
+        console.log(food)
+    }, 3000)
+    console.log("Async will not wait")
+    }
+getfood()
+console.log(`food ready ${food}`)
+
+-------------------------------------------
+
+// Call back function
+
+console.log("food is order in zoomato");
+function getfood(callback) {
+  setTimeout(() => {
+    const food = '🍅';
+    callback(food)
+  }, 3000);
+}
+function foodready(food) {
+  console.log(`food is ready ${food}`);
+}
+getfood(foodready);
+console.log("doing other works food is ready");
+
+----------------------------------------------------
+
+//function
+
+const complete = () => {
+  console.log("finish");
+}
+const add = (callback) => {
+  var x = 5
+  var y = 7
+  console.log("sum", x + y)
+    callback()
+  }
+add(complete)
+
+--------------------------------------------------
+
+// Call back function
+
+setTimeout(() => {
+  console.log("5");
+},1000)
+setTimeout(() => {
+  console.log("4");
+},1000);
+setTimeout(() => {
+  console.log("3");
+},1000);
+setTimeout(() => {
+  console.log("2");
+},1000);
+setTimeout(() => {
+  console.log("1");
+},1000);
+setTimeout(() => {
+  console.log("Welcome to Async programing");
+},1000);
+*/
+
+-----------------------------------------------
+
